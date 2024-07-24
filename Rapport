@@ -1,0 +1,36 @@
+# Initialisation du projet et configuration de Docusaurus
+
+## Étapes
+
+1. Création du dépôt GitHub.
+2. Initialisation du site Docusaurus avec `npx create-docusaurus@latest my-website classic`.
+3. Installation des dépendances avec `npm install`.
+4. Commit initial.
+
+# Configuration de l'intégration continue (CI) avec GitHub Actions
+
+## Étapes
+
+1. Création du dossier `.github/workflows`.
+2. Création du fichier `deploy.yml`.
+3. Configuration des étapes de build, de test et de déploiement.
+4. Commit de la configuration CI.
+
+# Déploiement du site sur GitHub Pages
+
+## Étapes
+
+1. Configuration de GitHub Actions pour le déploiement.
+2. Utilisation de `peaceiris/actions-gh-pages@v3` pour déployer sur GitHub Pages.
+3. Commit de la configuration de déploiement.
+
+# Ajout et exécution des tests pour le site
+
+## Étapes
+
+1. Installation de Jest et Puppeteer.
+2. Configuration de Jest (`jest.config.js`).
+3. Création des tests (`__tests__/site.test.js`).
+4. Ajout des scripts de test dans `package.json`.
+5. Mise à jour du workflow GitHub Actions pour inclure les tests.
+6. Commit des fichiers de test et de la configuration mise à jour.
